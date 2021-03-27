@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-title{font-family:Tahoma, Geneva, sans-serif; font-size:20px; font-weight:bold; text-align:left; color:#960083; text-decoration:none;}
+.title-welcome{font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:bold; text-align:right; color:#960083; text-decoration:none; }
+.title-logout{font-family:Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; text-align:left; color:#757575; text-decoration:none;}
+
+.link-breadcrumb-deactive{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#7e9da8; text-decoration:none;}
+.link-breadcrumb-active{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#960083; text-decoration:none; text-transform:uppercase;}
+.text-breadcrumb-deactive{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#7e9da8; text-decoration:none; text-transform:capitalize;}
+.text-breadcrumb-active{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#960083; text-decoration:none;  text-transform:uppercase;}
+
+.text-search{font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:bold; text-align:left; color:#757575; text-decoration:none;}
+
+input {-webkit-box-shadow:inset 0.2em 0.2em 0.2em 0px #dddddd;  -moz-box-shadow:inset 0.2em 0.2em 0.2em 0px #dddddd; box-shadow:inset 0.2em 0.2em 0.2em 0px #dddddd; overflow:auto; padding:0 0 0 5px; border:1px solid #aaaaaa; height:18px;}
+
+input[type=button]{-webkit-box-shadow:none;  -moz-box-shadow:none; box-shadow:none; overflow:auto; padding:0 0 0 5px; border:1px solid #aaaaaa; height:24px; background:none;}
+input[type=submit]{-webkit-box-shadow:none;  -moz-box-shadow:none; box-shadow:none; overflow:auto; padding:0; border:none;}
+input[type=radio]{-webkit-box-shadow:none;  -moz-box-shadow:none; box-shadow:none; overflow:auto; padding:0; border:none; margin:0 auto;}
+
+textarea{-webkit-box-shadow:inset 0.2em 0.2em 0.2em 0px #dddddd;  -moz-box-shadow:inset 0.2em 0.2em 0.2em 0px #dddddd; box-shadow:inset 0.2em 0.2em 0.2em 0px #dddddd; overflow:auto; padding:0 0 0 5px; border:1px solid #aaaaaa; height:auto;}
+
+.styleSelect select {background:transparent; width:206px; padding:2px; font-size:12px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.styleSelect { width:206px; height:19px; overflow: hidden; background:url(../images/input-dropdown.png) no-repeat left #fff; }
+
+.text-common{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#757575; text-decoration:none;}
+.text-hint{font-family:Tahoma, Geneva, sans-serif; font-size:11px; text-align:left; color:#757575; text-decoration:none;}
+.text-commonTXT{font-family:Tahoma, Geneva, sans-serif; font-size:11px; text-align:right; color:#757575; text-decoration:none;}
+
+/*Quick Search CheckBox Styles*/
+.qSelect select {background:transparent; width:132px; padding:2px; font-size:11px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.qSelect { width:132px; height:19px; overflow: hidden; background:url(../images/qSelect.jpg) no-repeat left ; }
+
+.title-table{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:center; color:#ffffff; text-decoration:none; font-weight:bold;}
+.text-table{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#343434; text-decoration:none; font-weight:bold;}
+
+
+/*popup windows*/
+.top-heading{font-family:Tahoma, Geneva, sans-serif; font-size:20px; font-weight:bold; text-align:left; color:#05a6c3; text-decoration:none;}
+.title select {background:transparent; width:96px; padding:0px; font-size:12px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.title { width:96px; height:19px; overflow: hidden; background:url(../images/title-background.jpg) no-repeat left ; }
+<!--File Field Upload-->
+#FileUpload {
+    position:relative;
+}
+
+#BrowserVisible {
+    position: absolute;
+    top:auto;
+    left:auto;
+	margin-top:-24px;
+    z-index: 1;
+    background:url(../images/button-Browes.png) 100% 1px no-repeat ;
+    width:245px;
+	height:24px;
+}
+
+#Browes {
+    position:relative;
+}
+
+#BVisible {
+    position: absolute;
+    top:auto;
+    left:auto;
+	margin-top:-24px;
+    z-index: 1;
+    background:url(../images/button-calendar.png) 100% 1px no-repeat ;
+    width:150px;
+	height:24px;
+}
+
+
+<!--end of File Field Upload-->
+
+.title-fieldsets{font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold; text-align:left; color:#05a6c3; text-decoration:none;}
+
+.title-tariff{font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:bold; text-align:left; color:#05a6c3; text-decoration:none;}
+
+/*Dropdown for Dates*/
+.dtSelect select {background:transparent; width:46px; padding:2px; font-size:11px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.dtSelect { width:46px; height:19px; overflow: hidden; background:url(../images/dropdown-date.png) no-repeat left ; }
+
+.yrSelect select {background:transparent; width:56px; padding:2px; font-size:11px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.yrSelect { width:56px; height:19px; overflow: hidden; background:url(../images/dropdown-date.png) no-repeat left ; }
+
+.subTitle{font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold; text-align:left; color:#05a6c3; text-decoration:none; vertical-align:top; margin-right:5px; padding-left:10px;}
+
+.title-edit{font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold; text-align:left; color:#a5319d; text-decoration:none;}
+
+.text-links{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#05a6c3; text-decoration:underline;}
+
+.calculation-links{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#a5319d; text-decoration:none; font-weight:bold;}
+
+/*inner pages*/
+.title-sub{font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:bold; text-align:left; color:#960083; text-decoration:none; }
+
+.innerSelect select {background:transparent; width:132px; padding:2px; font-size:12px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.innerSelect { width:132px; height:19px; overflow: hidden; background:url(../images/qSelect.jpg) no-repeat left ; }
+
+.tariff select {background:transparent; width:256px; padding:2px; font-size:12px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.tariff { width:256px; height:19px; overflow: hidden; background:url(../images/input-dropdown-tariff.png) no-repeat left #fff; }
+
+.ccy select {background:transparent; width:51px; padding:2px; font-size:12px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.ccy { width:51px; height:19px; overflow: hidden; background:url(../images/dd-ccy.png) no-repeat left #fff; }
+
+.equipment select {background:transparent; width:165px; padding:2px; font-size:12px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.equipment { width:165px; height:19px; overflow:hidden; background:url(../images/tf-ddown.png) no-repeat left #fff; margin-left:2px; }
+
+.subVendor select {background:transparent; width:197px; padding:2px; font-size:12px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+.subVendor { width:197px; height:19px; overflow:hidden; background:url(../images/ddSubVendor.png) no-repeat left #fff; margin-left:0px; }
+
+.mmtSelect select {background:transparent; width:146px; padding:5px; font-size:11px; line-height:1; border:0; border-radius:0; height:19px; overflow:auto; -webkit-appearance:none; color:#6c6c6c; font-family:Tahoma, Geneva, sans-serif; }
+
+.mmtSelect { width:146px; height:19px; overflow: hidden; background:url(../images/qSelect.jpg) no-repeat left ; }
+.inq-links{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#05a6c3; text-decoration:none; font-weight:bold;}
+.text-changes{font-family:Tahoma, Geneva, sans-serif; font-size:11px; text-align:left; color:#01a5c2; text-decoration:none;}
+
+
+/*File Field*/
+div.custom_file_upload {
+	width: 170px;
+	height: 20px;
+	margin: 0px 5px 0px auto;
+}
+
+input.file {
+	width: 100px;
+	height: 12px;
+	border: 1px solid #BBB;
+	color: #343434;
+	padding: 5px; 
+	margin-right:2px;
+	font-family:Tahoma, Geneva, sans-serif;
+	
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	
+	outline: none;
+}
+
+div.file_upload {
+	width: 65px;
+	height: 24px;
+	background: #bc43bb;
+	background: -moz-linear-gradient(top,  #bc43bb 0%, #9a2990 44%, #760d61 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc43bb), color-stop(44%,#9a2990), color-stop(100%,#760d61));
+	background: -webkit-linear-gradient(top,  #bc43bb 0%,#9a2990 44%,#760d61 100%);
+	background: -o-linear-gradient(top,  #bc43bb 0%,#9a2990 44%,#760d61 100%);
+	background: -ms-linear-gradient(top,  #bc43bb 0%,#9a2990 44%,#760d61 100%);
+	background: linear-gradient(top,  #bc43bb 0%,#9a2990 44%,#760d61 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc43bb', endColorstr='#760d61',GradientType=0 );
+
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+div.file_upload:before {
+	padding:4px 0 8px;
+	content: 'Browse'; font-family:Tahoma, Geneva, sans-serif;
+	position: absolute;
+	left: 0; right: 0;
+	text-align: center;
+	font-size:12px;
+	cursor: pointer;
+}
+
+div.file_upload input {
+	position: relative;
+	height: 20px;
+	width: 100px;
+	display: inline;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.titleHSCode{font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:normal; text-align:left; color:#343434; text-decoration:none; }
+
