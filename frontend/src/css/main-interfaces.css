@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0 auto; padding:0; clear:both; float:inherit; background:#ebebeb;}
+	
+#wrapper{width:1100px; margin:0 auto; padding:0; float:inherit; height:auto;}
+	
+#main-container{width:1100px; height:auto; padding:0; margin:0 auto; float:inherit;}
+/*header styles*/	
+#header{width: 1100px; height:50px; padding:10px 0px; margin:0 auto; float:inherit;}
+/*index pages*/
+.header-index{width: 1100px; height:150px; padding:10px 0px; margin:0 auto; float:inherit;}
+.top-logoContainer{width: 1100px; height:auto; padding:10px 0px; margin:0 auto; float:inherit;}
+.logo-container{width:280px; height:64px; float:left; padding:0; margin:0 auto;}
+.lower-titleContainer{width:1100px; height:50px; float:left; padding:0; margin:20px auto 0;}
+
+#header-left{width:221px; height:68px; float:left; margin:0 auto; padding:0;}
+
+#header-right{width:280px; height:50px; float:right; margin:0 auto; padding:0; margin:0 0 0 280px;}
+
+#bottom-header{width:1100px; height:45px; padding:0px; margin:0 auto; float:left; vertical-align:bottom;}
+#breadcrumb-container{width:722px; height:16px; padding:0px; margin:10px auto 0; float:left; vertical-align:bottom;}
+
+#top-symbol-container{width:auto; padding:0 10px 0 0; margin:0 auto; height:50px; float:left;}
+#top-title-container{width:440px; margin:0 auto; padding:10px 0; height:30px; float:left;}
+
+#right-welcome-panel{width:200px; height:16px; float:left; margin:0 auto; padding:5px 10px 0 0;}
+#logout-icon-box{width:15px; height:21px; float:left; margin:0 10px 0 5px; padding:0;}
+#logout-textbox{width:40px; height:16px; float:left; margin:0 auto; padding:5px 0 0 0;}
+/*end of header styles*/
+
+.content-container{width: 1100px; height:auto; padding:0px; margin:20px auto 28px; float:left;}
+.leftContainer{width:460px; height:auto; padding:0; margin:0 18px 0 0; float:left;}
+.middleContainer{width:320px; height:auto; padding:0; margin:0 18px 0 0; float:left;}
+.rightContainer{width:284px; height:auto; padding:0; margin:0 auto; float:left;}
+/*Left Container*/
+.buttonIconContainer{width:125px; height:132px; float:left; padding:0; margin:11px 11px 11px 7px ; border-radius:4px; moz-border-radius:4px; webkit-border-radius:4px; border:1px solid #1d7595;}
+.buttonIconContainerMid{width:125px; height:132px; float:left; padding:0; margin:11px; border-radius:4px; moz-border-radius:4px; webkit-border-radius:4px; border:1px solid #1d7595;}
+.buttonIconContainerLast{width:125px; height:132px; float:left; padding:0; margin:11px 7px 11px 11px ; border-radius:4px; moz-border-radius:4px; webkit-border-radius:4px; border:1px solid #1d7595;}
+.top-iconContainer{width:95px; height:95px; float:left; padding:3px 15px 0px; margin:0 auto;}
+/*.bottom-iconButtonContainer{width:115px; height:32px; float:left; padding:0px 5px 2px; margin:0 auto; background:url(../images/button-icon-title-bg.png) repeat-x top left; font-family:Tahoma, Geneva, sans-serif; font-size:13px; text-align:center; color:#0fdaff; text-decoration:none; font-weight:bold;}
+.bottom-iconButtonContainerTwo{width:115px; height:14px; float:left; padding:8px 5px 12px; margin:0 auto; background:url(../images/button-icon-title-bg.png) repeat-x top left; font-family:Tahoma, Geneva, sans-serif; font-size:13px; text-align:center; color:#0fdaff; text-decoration:none; font-weight:bold;}
+*/
+/*Middle Container*/
+/*
+.mainTitle-Container{width:auto; height:15px; float:left; margin:0 0 0 10px; padding:4px 15px; background:url(../images/main-interface-tabBG.png) repeat-x top left; border-top-left-radius:6px; moz-border-top-left-radius:6px; webkit-border-top-left-radius:6px; border-top-right-radius:6px; moz-border-top-right-radius:6px; webkit-border-top-right-radius:6px; border: 1px solid #1d95c0; font-family:Tahoma, Geneva, sans-serif; font-size:14px; color:#ffffff; font-weight:bold; text-align:center; }
+*/
+.middleButtonIconContainer{width: 290px; padding:11px 15px; background:#b1b0b1; height:auto; margin:0 auto; float:left;  border-top-left-radius:6px; moz-border-top-left-radius:6px; webkit-border-top-left-radius:6px; border-top-right-radius:6px; moz-border-top-right-radius:6px; webkit-border-top-right-radius:6px; border-bottom-left-radius:6px; moz-border-bottom-left-radius:6px; webkit-border-bottom-left-radius:6px; border-bottom-right-radius:6px; moz-border-bottom-right-radius:6px; webkit-border-bottom-right-radius:6px; border: 1px solid #b1b0b1;}
+ 
+.title-welcome{font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:bold; text-align:right; color:#960083; text-decoration:none; }
+.title-logout{font-family:Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; text-align:left; color:#757575; text-decoration:none;}
+
+/*Right Container*/
+.rightButtonIconContainer{width: 254px; padding:11px 15px;
+background:#b1b0b1; height:auto; margin:0 auto; float:left;  border-top-left-radius:6px; moz-border-top-left-radius:6px; webkit-border-top-left-radius:6px; border-top-right-radius:6px; moz-border-top-right-radius:6px; webkit-border-top-right-radius:6px; border-bottom-left-radius:6px; moz-border-bottom-left-radius:6px; webkit-border-bottom-left-radius:6px; border-bottom-right-radius:6px; moz-border-bottom-right-radius:6px; webkit-border-bottom-right-radius:6px; border: 1px solid #b1b0b1;}
+
+.rightContainerRow{width:254px; height:auto; margin:0 auto 20px; float:left; padding:0;}
+.iconContainer{width:32px; height:37px; padding:0; margin:0 10px 0 0; float:left;}
+.linkContainer{width:212px; height:15px; padding:11px 0; margin:0 auto; float:left;}
+.linkContainerTwo{width:212px; height:37px; padding:0; margin:0 auto; float:left;}
+.titleLink{font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold; text-align:left; color:#960083; text-decoration:none; }
+.rightContainerRowBottom{width:254px; height:auto; margin:0 auto 5px; float:left; padding:0;}
+
+.externalLinkContainer{width:258px; height:44px; float:left; padding:0; margin:20px 13px 13px; }
+.externalIcon{width:auto; padding:0; margin:0 10px; height:auto; float:left;}
+
+/*Schedule Main Interface*/
+.schedule-container{width:830px; height:auto; padding:0; margin:0 auto; float:left;}
+.mainIcon-container{width:auto; height:auto; padding:0; margin:0 auto; float:left;}
+.schedule-iconContainer{width: auto; padding:11px 15px; background:#b1b0b1; height:auto; margin:0 auto; float:left;  border-top-left-radius:6px; moz-border-top-left-radius:6px; webkit-border-top-left-radius:6px; border-top-right-radius:6px; moz-border-top-right-radius:6px; webkit-border-top-right-radius:6px; border-bottom-left-radius:6px; moz-border-bottom-left-radius:6px; webkit-border-bottom-left-radius:6px; border-bottom-right-radius:6px; moz-border-bottom-right-radius:6px; webkit-border-bottom-right-radius:6px; border: 1px solid #b1b0b1;}
+.subHeader-container{width:1100px; height:auto; float:left; margin:20px auto 0; padding:0;}
+.top-symbol-container{width:auto; padding:0 10px 0 0; margin:0 auto; height:50px; float:left;}
+.top-title-container{width:440px; margin:0 auto; padding:10px 0; height:30px; float:left; font-family:Tahoma, Geneva, sans-serif; font-size:20px; font-weight:bold; text-align:left; color:#960083; text-decoration:none;}
+.bottom-header{width:1100px; height:45px; padding:0px; margin:0 auto 10px; float:left; vertical-align:bottom;}
+.breadcrumb-container{width:722px; height:16px; padding:0px; margin:10px auto 0; float:left; vertical-align:bottom;}
+
+.link-breadcrumb-deactive{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#7e9da8; text-decoration:none;}
+.link-breadcrumb-active{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#960083; text-decoration:none; text-transform:uppercase;}
+.text-breadcrumb-deactive{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#7e9da8; text-decoration:none; text-transform:capitalize;}
+.text-breadcrumb-active{font-family:Tahoma, Geneva, sans-serif; font-size:12px; text-align:left; color:#960083; text-decoration:none;  text-transform:uppercase;}
+
+/*Tariff Left Container*/
+.leftTariffContainer{width:320px; height:auto; padding:0; margin:0 18px 0 0; float:left;}
+.leftTariffContainerMDL{width:470px; height:auto; padding:0; margin:0 18px 0 0; float:left;}
+.tariffButtonIconContainer{width: 440px; background:#b1b0b1; height:auto; margin:0 auto; float:left;  border-top-left-radius:6px; moz-border-top-left-radius:6px; webkit-border-top-left-radius:6px; border-top-right-radius:6px; moz-border-top-right-radius:6px; webkit-border-top-right-radius:6px; border-bottom-left-radius:6px; moz-border-bottom-left-radius:6px; webkit-border-bottom-left-radius:6px; border-bottom-right-radius:6px; moz-border-bottom-right-radius:6px; webkit-border-bottom-right-radius:6px; border: 1px solid #b1b0b1;}
+
+.tariffButtonIconContainerMDL{width: 290px; background:#b1b0b1; height:auto; margin:0 auto; float:left;  border-top-left-radius:6px; moz-border-top-left-radius:6px; webkit-border-top-left-radius:6px; border-top-right-radius:6px; moz-border-top-right-radius:6px; webkit-border-top-right-radius:6px; border-bottom-left-radius:6px; moz-border-bottom-left-radius:6px; webkit-border-bottom-left-radius:6px; border-bottom-right-radius:6px; moz-border-bottom-right-radius:6px; webkit-border-bottom-right-radius:6px; border: 1px solid #b1b0b1;}
+
+
+/*Address Book Main Interface*/
+.addressBook-container{width:480px; height:auto; padding:0; margin:0 auto; float:left;}
+
+.a:link{text-decoration:none;}
+.a{text-decoration:none;}
+
+/*Login page*/
+.login-mainContainer{width:370px; height:auto; float:left; margin:15% 30% 0; padding:0;}
+.login-logoContainer{width:222px; height:70px; float:left; margin:0 20% 10px; padding:0;}
+.loginContainer{width:320px; height:100px; float:left; margin:0 auto; padding:10px; border-radius:6px; moz-border-radius:6px; webkit-border-radius:6px; border: 1px solid #b1b0b1; background:#d2d2d2;}
+.loginDetailRow{width:320px; height:24px; float:left; margin:0 auto 10px; padding:0;}
+.loginLeftContainer{width:100px; height:12px; float:left; padding:4px 0 8px;  margin:0 auto; font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:bold; text-align:left; color:#343434; text-decoration:none;}
+.loginRightContainer{width:220px; height:22px; float:left; padding:1px 0;  margin:0 auto;}
+.loginButtonContainer{width:220px; height:31px; padding:0; float:left; margin:0 auto 10px 100px;}
